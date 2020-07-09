@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestContact.Interfaces\GestContact.Interfaces.csproj" />
+    <ProjectReference Include="..\GestContact.UI.Models.Client\GestContact.UI.Models.Client.csproj" />
+    <ProjectReference Include="..\Tools.Api\Tools.Api.csproj" />
+  </ItemGroup>
+
+</Project>

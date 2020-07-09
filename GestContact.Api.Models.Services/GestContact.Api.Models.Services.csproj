@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestContact.Interfaces\GestContact.Interfaces.csproj" />
+    <ProjectReference Include="..\GestContact.Models\GestContact.Models.csproj" />
+    <ProjectReference Include="..\Tools.Database\Tools.Database.csproj" />
+  </ItemGroup>
+
+</Project>

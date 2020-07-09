@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestContact.Interfaces\GestContact.Interfaces.csproj" />
+    <ProjectReference Include="..\GestContact.Models\GestContact.Models.csproj" />
+    <ProjectReference Include="..\GestContact.UI.Models.Services\GestContact.UI.Models.Services.csproj" />
+    <ProjectReference Include="..\Tools.Api\Tools.Api.csproj" />
+  </ItemGroup>
+
+</Project>
